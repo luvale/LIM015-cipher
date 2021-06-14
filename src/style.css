@@ -1,0 +1,68 @@
+@font-face { font-family: crackedCode;
+    src: url("assets/Cracked\ Code.ttf")
+     format("truetype")
+    }
+
+@font-face { font-family: madeEvolveThin;
+    src: url("assets/MADEEvolveSansThin.otf")
+     format("opentype")
+    }
+
+@font-face { font-family: madeSans;
+        src: url("assets/madeSansThin.otf")
+         format("opentype")
+        }    
+body {
+    color:#eee0fc ;
+    background : url(assets/BG.jpg), #3F1D79;
+    background-size: cover;
+    background-attachment : fixed;
+    background-position: center ;
+    text-align: center;
+    
+    }
+h1 {font-family: crackedCode; 
+    font-size : 80px ;
+}
+h2 {font-family: madeEvolveThin}
+
+textarea {text-transform: upperCase}
+
+.botones {  text-transform: upperCase; 
+         border: none;
+         padding: 15px 30px;
+         border-radius: 30px;
+         font-size: 25px;
+         font-family: madeEvolveThin ;
+         background-color: #23B98E;
+         cursor: pointer
+         }
+.botones:hover {background-color: #1f9976 }
+
+#screen1 {display:none}
+#screen2 {display:none}
+
+#textDesplazamiento {display:inline-block}
+#desplazamiento {width: 50px;
+    height: 40px;
+    font-family: madeSans;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: #eee0fc;
+    border: none;
+   display: inline-block;
+}
+
+ #mensaje, #resultado { height: 90px;
+    width: 300px;
+    font-family: madeSans;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: #eee0fc;
+    border: none;
+}
+
+a { color: #23B98E; 
+    font-family: madeEvolveThin;
+    font-size: 20px;
+}

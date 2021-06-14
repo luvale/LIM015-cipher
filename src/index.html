@@ -2,13 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <header>
+    <h1>SECRETO</h1>
+  </header>
+    <section id="screen1">
+      <h2>Herramienta de Cifrado y Descifrado.</h2>
+      <h2>Crea Mensajes Secretos.</h2>
+      <br>
+      <button class= "botones" id="btnComenzar">Comenzar</button>
+    </section>
+    <section id="screen2">
+      <h2 id="textDesplazamiento">Desplazamiento:</h2> 
+      <input id="desplazamiento" type="number" min=1 max=100>
+      <br>
+      <textarea class="textArea" id="mensaje" placeholder="Escribe tu mensaje aquí"></textarea>
+      
+      <br><br>
+      <button class="botones" id="btnCifrar">Cifrar</button>
+      <button class="botones" id="btnDescifrar">Descifrar</button>
+      <br><br>
+
+      <textarea class="textArea" id="resultado"></textarea>
+    </section>
+    <br><br><br><br><br>
+    <footer>
+      <a href="https://es.wikipedia.org/wiki/Cifrado_(criptograf%C3%ADa)" target="_blank">¿Qué es el cifrado?</a>
+    </footer>
+
+   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
