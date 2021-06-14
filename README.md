@@ -3,7 +3,7 @@ Made Evolve Sans (https://www.dafont.com/es/made-evolve-sans.font)
 
 Primero hice un prototipo de baja fidelidad en papel donde plasmé 2 pantallas.
 
-La primera pantalla tiene el botón "Comenzar" en la parte inferior. Este te lleva a la segunda pantalla donde se encuentra la herramiento de cifrado y descifrado.
+La primera pantalla tiene el botón "Comenzar" en la parte inferior. Este te lleva a la segunda pantalla donde se encuentra la herramienta de cifrado y descifrado.
 
 Escogí el color morado para el fondo pues ese color se asocia con el misterio y lo secreto. 
 
