@@ -36,15 +36,15 @@ describe('cipher', () => {
     // });
 
     // Hacker edition
-    //
-    // [Español]
+    
+     //[Español]
     // Si decides implementar soporte para caracteres no alfabéticos descomenta
     // el test a continuación.
     //
    
-    // it('should return " !@" for " !@"', () => {
-    //   expect(cipher.encode(33, ' !@')).toBe(' !@');
-    // });
+    it('should return " !@" for " !@"', () => {
+     expect(cipher.encode(33, ' !@')).toBe(' !@');
+     });
   });
 
   describe('cipher.decode', () => {
@@ -89,9 +89,9 @@ describe('cipher', () => {
     // Se quiser adicionar testes para caracteres não alfabéticos, descomente o
     // teste abaixo.
     //
-    // it('should return " !@" para " !@"', () => {
-    //   expect(cipher.decode(33, ' !@')).toBe(' !@');
-    // });
+    it('should return " !@" para " !@"', () => {
+      expect(cipher.decode(33, ' !@')).toBe(' !@');
+     });
   });
 
 });

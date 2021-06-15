@@ -13,7 +13,6 @@
          format("opentype")
         }    
 body {
-    color:#eee0fc ;
     background : url(assets/BG.jpg), #3F1D79;
     background-size: cover;
     background-attachment : fixed;
@@ -23,8 +22,11 @@ body {
     }
 h1 {font-family: crackedCode; 
     font-size : 80px ;
+    color:#eee0fc ;
 }
-h2 {font-family: madeEvolveThin}
+h2 {font-family: madeEvolveThin;
+    color:#eee0fc ;
+}
 
 textarea {text-transform: upperCase}
 
@@ -65,4 +67,8 @@ textarea {text-transform: upperCase}
 a { color: #23B98E; 
     font-family: madeEvolveThin;
     font-size: 20px;
+}
+h3 { color: #eee0fc; 
+    font-family: madeEvolveThin;
+    font-size: 16px;
 }
