@@ -21,7 +21,7 @@ function cifrar() {
      let string = document.getElementById("mensaje").value.toUpperCase();
      let offset = document.getElementById("desplazamiento").value;
     document.getElementById("resultado").value = cipher.encode (offset , string);
-};
+}
 
 const btnDescifrar = document.getElementById("btnDescifrar");
 btnDescifrar.addEventListener("click", descifrar);
