@@ -1,5 +1,7 @@
 import cipher from "./cipher.js";
 
+//Botón "Comenzar" y el cambio de display
+
 document.getElementById("screen1").style.display="block";
 
 const start = document.getElementById("btnComenzar");
@@ -10,8 +12,7 @@ function comenzar() {
     document.getElementById("screen2").style.display="block";
 }
 
-// let resultado = "";
-
+//Botón "Cifrar"
 const btnCifrar = document.getElementById("btnCifrar");
 btnCifrar.addEventListener("click", cifrar);
 
@@ -21,6 +22,7 @@ function cifrar() {
     document.getElementById("resultado").value = cipher.encode(offset , string);
 }
 
+//Botón "Descifrar"
 const btnDescifrar = document.getElementById("btnDescifrar");
 btnDescifrar.addEventListener("click", descifrar);
 

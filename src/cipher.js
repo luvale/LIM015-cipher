@@ -3,20 +3,15 @@ const cipher = {
    if (offset === null || offset === 0) {
       throw new TypeError();
     }
-    //console.log(string + offset);
     let resultado = "";
     for (let i= 0; i<string.length; i++){
-      //console.log(string[i]);
       let ascii = string.charCodeAt(i);
-      //console.log(ascii); 
       if (ascii >=65 && ascii <=90) {
         let newAscii = (ascii -65 + parseInt(offset)) %26 +65;
-        //console.log(newAscii);
         let newString = String.fromCharCode(newAscii); 
-        //console.log(newString);
         resultado += newString;
       }
-      // Para que permita "," "." "?" "!" y espacios
+      // Para que permita signos y espacios
       else {
         resultado += string[i];
       } 
@@ -27,19 +22,15 @@ const cipher = {
     if (offset === null || offset === 0) {
       throw new TypeError();
     }
-    //console.log(string + offset);
     let resultado = "";
     for (let i= 0; i<string.length; i++){
-      //console.log(string[i]);
-      let ascii = string.charCodeAt(i);
-      //console.log(ascii); 
+      let ascii = string.charCodeAt(i); 
       if (ascii >=65 && ascii <=90 ) {
         let newAscii = (ascii -90 - parseInt(offset)) %26 +90;
-        //console.log(newAscii);
         let newString = String.fromCharCode(newAscii); 
-        //console.log(newString);
         resultado += newString;
       } 
+      // Para que permita signos y espacios
       else {
         resultado += string[i];
       } 
